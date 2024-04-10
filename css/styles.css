@@ -260,6 +260,7 @@ header.scrolled{
 
 /*=========INTRO========================*/
 
+
 #intro{
     flex-direction: column;
     justify-content: center;
@@ -450,15 +451,28 @@ footer{
     #intro{
         align-items: center;
     }
+    .hero{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1rem;
+    }
     .inner{
-        width: 60%;
+        width: 100%;
         padding:0;
     }
     .inner p{
         font-size:1.2rem;
         line-height: 3rem;
     }
-    
+    .hero{
+        display:flex;
+        width:60%;
+        gap:10rem;
+        margin-top:8rem;
+    }
+    .img-top img{
+        max-width:200px;
+    }
     .integrante img{
         margin-right: 2rem;
     }
